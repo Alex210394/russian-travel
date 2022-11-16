@@ -1,0 +1,9 @@
+.place__text-wrapper {
+  max-width: 484px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__text-wrapper {
+    padding: 0 16px;
+  }
+}

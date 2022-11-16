@@ -1,0 +1,25 @@
+.train__wrapper {
+  justify-items: center;
+  margin-bottom: 92px;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .train__wrapper {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .train__wrapper {
+    margin-bottom: 88px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .train__wrapper {
+    margin-bottom: 64px;
+    padding: 0;
+  }
+}

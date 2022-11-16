@@ -1,0 +1,15 @@
+.railway__text {
+  max-width: 360px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .railway__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

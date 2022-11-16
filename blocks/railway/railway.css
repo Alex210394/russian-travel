@@ -1,0 +1,23 @@
+.railway {
+  margin: 0;
+  margin-bottom: 92px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .railway {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .railway {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .railway {
+    margin-bottom: 64px;
+  }
+}

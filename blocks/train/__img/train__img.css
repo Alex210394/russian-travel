@@ -1,0 +1,28 @@
+.train__img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 8px;
+}
+
+/*
+@media screen and (max-width: 1024px) {
+  .train__img {
+    max-width: 928px;
+    min-height: 580px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .train__img {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .train__img {
+    max-width: 320px;
+    min-height: 200px;
+  }
+} */

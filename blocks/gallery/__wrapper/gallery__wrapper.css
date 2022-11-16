@@ -1,0 +1,32 @@
+.gallery__wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  margin: 0;
+  margin-bottom: 92px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery__wrapper {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__wrapper {
+    gap: 16px;
+    margin-bottom: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .gallery__wrapper {
+    gap: 12px;
+    margin-bottom: 64px;
+    padding: 0 16px;
+  }
+}
