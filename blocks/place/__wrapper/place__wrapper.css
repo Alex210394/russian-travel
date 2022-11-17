@@ -1,22 +1,23 @@
 .place__wrapper {
-  margin-bottom: 92px;
+  margin-bottom: 93px;
   padding: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__wrapper {
+    margin-bottom: 85px;
     padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__wrapper {
-    margin-bottom: 90px;
+    margin-bottom: 84px;
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 390px) { 
   .place__wrapper {
     margin-bottom: 66px;
     padding: 0;

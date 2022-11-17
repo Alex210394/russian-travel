@@ -1,23 +1,27 @@
 .place__item {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   row-gap: 47px;
   column-gap: 17px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
   .place__item {
-    gap: 48px 32px;
+    gap: 48px 17px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__item {
-    gap: 48px 28px;
+    gap: 49px 18px;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 765px) { 
   .place__item {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, 1fr);

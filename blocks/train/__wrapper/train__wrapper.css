@@ -1,5 +1,7 @@
 .train__wrapper {
+  display: grid;
   justify-items: center;
+  margin: 0 auto;
   margin-bottom: 92px;
   padding: 0 148px;
 }
@@ -10,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 824px) {
   .train__wrapper {
     margin-bottom: 88px;
     padding: 0;
