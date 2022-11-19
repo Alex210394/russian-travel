@@ -13,12 +13,12 @@
 <body class="page">
   <div class="page__container">
     <header class="header">
-      <div class="header__wrap flex">
+      <div class="header__wrap">
         <a class="header__logo-link" href="#" target="_blank">
           <img class="header__logo" src="./images/header-logo.svg" alt="Логотип карта России">
         </a>
         <div class="header__links">
-          <a class="header__link header__link_underline_on" href="#" target="_blank">Ru</a>
+          <a class="header__link header__link_active" href="#" target="_blank">Ru</a>
           <a class="header__link" href="#" target="_blank">En</a>
         </div>
       </div>
@@ -27,7 +27,7 @@
     <main class="main">
 
       <section class="train">
-        <div class="train__wrapper grid">
+        <div class="train__wrapper">
           <h1 class="train__title">Путешествия по&nbsp;России</h1>
           <p class="train__text">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
           <figure class="train__img-wrap">
@@ -38,9 +38,8 @@
       </section>
 
       <section class="visible" aria-label="Чего мы там не видели?">
-        <div class="visible__wrap flex">
           <article class="visible__article">
-            <h3 class="visible__title">Чего мы&nbsp;там не&nbsp;видели?</h3>
+            <h2 class="visible__title">Чего мы&nbsp;там не&nbsp;видели?</h3>
             <p class="visible__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
               но&nbsp;только&nbsp;36% планируют
               провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На самом
@@ -55,31 +54,31 @@
               некоторые
               интересные места, достойные вашего отпуска.</p>
             <ul class="visible__list">
-              <li class="visible__item list-reset flex">
+              <li class="visible__item">
                 <p class="visible__name">
                   Часовых поясов
                   <span class="visible__quantity">11</span>
                 </p>
               </li>
-              <li class="visible__item list-reset flex">
+              <li class="visible__item">
                 <p class="visible__name">
                   Объектов природного наследия ЮНЕСКО
                   <span class="visible__quantity">12</span>
                 </p>
               </li>
-              <li class="visible__item list-reset flex">
+              <li class="visible__item">
                 <p class="visible__name">
                   Объектов культурного наследия ЮНЕСКО
                   <span class="visible__quantity">16</span>
                 </p>
               </li>
-              <li class="visible__item list-reset flex">
+              <li class="visible__item">
                 <p class="visible__name">
                   Природных заповедников
                   <span class="visible__quantity">105</span>
                 </p>
               </li>
-              <li class="visible__item list-reset flex">
+              <li class="visible__item">
                 <p class="visible__name">
                   Аэропортов
                   <span class="visible__quantity">241</span>
@@ -87,12 +86,11 @@
               </li>
             </ul>
           </article>
-        </div>
       </section>
 
 
       <section class="gallery" aria-label="Галерея">
-        <div class="gallery__wrapper grid">
+        <div class="gallery__wrapper">
           <img class="gallery__img" src="./images/photo-grid-train.jpg" alt="Поезд">
           <img class="gallery__img" src="./images/photo-grid-atharva-tulsi.jpg" alt="Видсверху  на заснеженные горы">
           <img class="gallery__img" src="./images/photo-grid-tuman.jpg" alt="Волк на тюке с соломой">
@@ -110,12 +108,11 @@
       </section>
 
       <section class="place">
-        <div class="place__wrapper">
-          <ul class="place__list grid">
-            <li class="place__item list-reset grid">
-              <h3 class="place__title">Куршская коса</h3>
+          <ul class="place__list">
+            <li class="place__item">
+              <h2 class="place__title">Куршская коса</h2>
               <div class="place__description">
-                <p class="place__url">URL</p>
+                <span class="place__url">url</span>
                 <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
               </div>
               <img class="place__img" src="./images/place-kosa.jpg" alt="Коса на побережье">
@@ -131,10 +128,10 @@
               </div>
             </li>
 
-            <li class="place__item list-reset grid">
-              <h3 class="place__title">Кольский</h3>
+            <li class="place__item">
+              <h2 class="place__title">Кольский</h2>
               <div class="place__description">
-                <p class="place__url">URL</p>
+                <span class="place__url">url</span>
                 <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                   target="_blank">National
                   Geographic</a>
@@ -152,10 +149,10 @@
               </div>
             </li>
 
-            <li class="place__item list-reset grid">
-              <h3 class="place__title">Алтай</h3>
+            <li class="place__item">
+              <h2 class="place__title">Алтай</h2>
               <div class="place__description">
-                <p class="place__url">URL</p>
+                <span class="place__url">url</span>
                 <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                   target="_blank">Facebook</a>
               </div>
@@ -172,10 +169,10 @@
               </div>
             </li>
 
-            <li class="place__item list-reset grid">
-              <h3 class="place__title">Зимний Байкал</h3>
+            <li class="place__item">
+              <h2 class="place__title">Зимний Байкал</h2>
               <div class="place__description">
-                <p class="place__url">URL</p>
+                <span class="place__url">url</span>
                 <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
               </div>
               <img class="place__img" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
@@ -191,10 +188,10 @@
               </div>
             </li>
 
-            <li class="place__item list-reset grid">
-              <h3 class="place__title">Карелия</h3>
+            <li class="place__item">
+              <h2 class="place__title">Карелия</h2>
               <div class="place__description">
-                <p class="place__url">URL</p>
+                <span class="place__url">url</span>
                 <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
               </div>
               <img class="place__img" src="./images/place-karelia.jpg" alt="Карелия">
@@ -210,11 +207,10 @@
               </div>
             </li>
           </ul>
-        </div>
       </section>
 
       <section class="railway">
-        <a class="railway__link flex" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <a class="railway__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="railway__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="railway__text">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&mdash; путешествие
             от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
@@ -224,9 +220,9 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__wrapper flex">
+      <div class="footer__wrapper">
         <nav class="footer__navigation">
-          <ul class="footer__list flex">
+          <ul class="footer__list">
             <li class="footer__item list-reset">
               <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
             </li>

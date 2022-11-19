@@ -15,13 +15,11 @@
 @media screen and (max-width: 824px) {
   .train__wrapper {
     margin-bottom: 88px;
-    padding: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .train__wrapper {
     margin-bottom: 64px;
-    padding: 0;
   }
 }
