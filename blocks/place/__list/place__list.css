@@ -1,24 +1,31 @@
 .place__list {
   display: grid;
   margin: 0;
-  padding: 0;
+  margin-bottom: 93px;
+  padding: 0 148px;
   gap: 81px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__list {
-    gap: 72px;
+    margin-bottom: 73px;
+    padding: 0 48px;
+    gap: 59px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__list {
-    gap: 62px;
+    margin-bottom: 88px;
+    padding: 0 24px;
+    gap: 63px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .place__list {
+    margin-bottom: 66px;
+    padding: 0;
     gap: 50px;
   }
 }

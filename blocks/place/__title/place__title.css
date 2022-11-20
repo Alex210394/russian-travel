@@ -14,11 +14,17 @@
   }
 }
 
+@media screen and (max-width: 726px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .place__title {
     padding: 0 16px;
     margin-bottom: 0;
-    font-size: 32px;
-    line-height: 35px;
   }
 }

@@ -10,20 +10,17 @@
 @media screen and (max-width: 1024px) {
   .train__img {
     max-width: 928px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .train__img {
     max-width: 768px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .train__img {
     max-width: 320px;
-    width: 100%;
   }
 }

@@ -15,6 +15,7 @@
 @media screen and (max-width: 824px) {
   .train__wrapper {
     margin-bottom: 88px;
+    padding: 0;
   }
 }
 

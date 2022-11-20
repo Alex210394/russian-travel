@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 824px) {
   .train__img-text {
     padding-left: 24px;
   }

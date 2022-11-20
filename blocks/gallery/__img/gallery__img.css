@@ -1,27 +1,9 @@
 .gallery__img {
   display: block;
-  object-fit: cover;
-  object-position: center;
+  -o-object-position: center;
+     object-position: center;
+  text-align: center;
   width: 100%;
+  background-color: beige;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .gallery__img {
-    width: 300px;
-    height: 225px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .gallery__img {
-    width: 352px;
-    height: 264px;
-  }
-} */
-
-/* @media screen and (max-width: 337px) {
-  .gallery__img {
-    max-width: 288px;
-    height: 216px;
-  }
-} */
