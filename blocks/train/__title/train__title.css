@@ -21,3 +21,9 @@
     line-height: 44px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .train__title {
+    margin-bottom: 15px;
+  }
+}

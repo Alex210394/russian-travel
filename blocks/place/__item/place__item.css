@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1279px) {
   .place__item {
-    gap: 46px 18px;
+    gap: 47px 19px;
   }
 }
 
@@ -31,12 +31,6 @@
   .place__item {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 32px;
-  }
-}
-
-@media screen and (max-width: 337px) {
-  .place__item {
     gap: 32px;
   }
 }

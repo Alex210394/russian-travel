@@ -7,8 +7,9 @@
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 337px) {
   .railway__text {
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
   }

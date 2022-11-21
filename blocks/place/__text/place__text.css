@@ -16,6 +16,12 @@
   }
 
   .place__text:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text:not(:last-child) {
     margin-bottom: 27px;
   }
 }

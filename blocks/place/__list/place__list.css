@@ -8,17 +8,17 @@
 
 @media screen and (max-width: 1024px) {
   .place__list {
-    margin-bottom: 73px;
+    margin-bottom: 77px;
     padding: 0 48px;
-    gap: 59px;
+    gap: 67px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__list {
     margin-bottom: 88px;
     padding: 0 24px;
-    gap: 63px;
+    gap: 70px;
   }
 }
 
@@ -27,5 +27,10 @@
     margin-bottom: 66px;
     padding: 0;
     gap: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__list {
+    margin-bottom: 68px;
   }
 }
