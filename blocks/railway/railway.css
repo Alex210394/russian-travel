@@ -6,13 +6,14 @@
 
 @media screen and (max-width: 1024px) {
   .railway {
+    margin-bottom: 94px;
     padding: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .railway {
-    margin-bottom: 88px;
+    margin-bottom: 89px;
   }
 }
 

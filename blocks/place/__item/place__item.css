@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1279px) {
   .place__item {
-    gap: 47px 19px;
+    gap: 47px 16px;
   }
 }
 
@@ -23,14 +23,19 @@
 
 @media screen and (max-width: 768px) {
   .place__item {
-    gap: 44px 17px;
+    gap: 43px 15px;
   }
 }
 
 @media screen and (max-width: 765px) {
   .place__item {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 32px;
+    gap: 29px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .place__item {
+    gap: 30px;
   }
 }

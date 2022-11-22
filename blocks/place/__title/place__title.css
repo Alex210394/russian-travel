@@ -21,10 +21,8 @@
   }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 392px) {
   .place__title {
     padding: 0 16px;
-    margin-bottom: 0;
   }
 }

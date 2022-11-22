@@ -12,8 +12,7 @@
   .gallery__wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 14px 15px;
-    margin-bottom: 92px;
-    padding: 0 48px;
+    margin-bottom: 94px;
   }
 }
 
@@ -25,7 +24,8 @@
 
 @media screen and (max-width: 768px) {
   .gallery__wrapper {
-    gap: 10px 18px;
+    gap: 16px 16px;
+    margin-bottom: 91px;
     padding: 0 16px;
   }
 }
@@ -34,7 +34,6 @@
   .gallery__wrapper {
     grid-template-columns: 1fr;
     margin-bottom: 64px;
-    padding: 0 16px;
   }
 }
 

@@ -10,8 +10,8 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__item {
-    margin-bottom: 14px;
+@media screen and (max-width: 768px) {
+  .place__url {
+    margin-bottom: 10px;
   }
 }
